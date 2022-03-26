@@ -1,6 +1,10 @@
 from abc import abstractmethod
 
+"""
 
+Interface Segregation Principle
+
+"""
 class Machine:
     def print(self, document):
         raise NotImplementedError()

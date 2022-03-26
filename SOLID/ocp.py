@@ -1,6 +1,10 @@
 from enum import Enum
 
+"""
 
+Open Closed Principle
+
+"""
 class Color(Enum):
     RED = 1
     GREEN = 2

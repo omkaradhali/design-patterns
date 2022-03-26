@@ -1,7 +1,11 @@
 from abc import abstractmethod
 from enum import Enum
 
+"""
 
+Dependency Inversion Principle
+
+"""
 class Relationship(Enum):
     PARENT = 0
     CHILD = 1

@@ -1,3 +1,8 @@
+"""
+
+Liskov Substitution Principle
+
+"""
 class Rectangle:
     def __init__(self, width, height):
         self._height = height

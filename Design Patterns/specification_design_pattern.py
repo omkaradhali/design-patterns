@@ -2,7 +2,7 @@ from abc import abstractmethod
 from dataclasses import dataclass
 from typing import Any
 
-## Pattern
+## Specification Design Pattern
 class BaseSpecification:
     @abstractmethod
     def is_satisfied_by(self, candidate: Any) -> bool:
