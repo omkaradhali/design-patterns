@@ -30,6 +30,14 @@ class NotificationFactory():
     self.__type = type
     
   def get_notification(self):
+
+    #switcher = {
+    #  "EMAIL": EmailNotification,
+    #  "SMS": SMSNotification
+    #}
+
+    #return switcher.get(self.__type, EmailNotification)
+
     if self.__type == 'EMAIL':
       return EmailNotification
     
