@@ -31,18 +31,18 @@ class NotificationFactory():
     
   def get_notification(self):
 
-    #switcher = {
-    #  "EMAIL": EmailNotification,
-    #  "SMS": SMSNotification
-    #}
+    switcher = {
+      "EMAIL": EmailNotification,
+      "SMS": SMSNotification
+    }
 
-    #return switcher.get(self.__type, EmailNotification)
+    return switcher.get(self.__type, EmailNotification)
 
-    if self.__type == 'EMAIL':
-      return EmailNotification
+    #if self.__type == 'EMAIL':
+    #  return EmailNotification
     
-    if self.__type == 'SMS':
-      return SMSNotification
+    #if self.__type == 'SMS':
+    #  return SMSNotification
  
 if __name__ == "__main__":
   user = User("John", "Doe","john_doe@gmail.com", "1234567899")
